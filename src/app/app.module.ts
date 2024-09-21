@@ -8,6 +8,7 @@ import { HomeComponent } from './components/home/home.component';
 import { SearchResultComponent } from './components/search-result/search-result.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { RegisterComponent } from './components/register/register.component';
     NavsComponent,
     SearchResultComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
