@@ -1,0 +1,21 @@
+<div>
+    <div><h3>{{product?.nombre}}</h3></div>
+    <div>
+        <img [src]="product?.url" alt="img">
+    </div>
+    <div>
+        <aside>
+            <div>
+                <div>
+                    <h4>Descripción:</h4>
+                </div>
+                <div>
+                    <p>{{product?.description}}</p>
+                </div>
+                <div>{{product?.precio}}</div>
+                <div><button>Comprar Ahora</button></div>
+                <div><button>Agregar al carrito</button></div>
+            </div>
+        </aside>
+    </div>
+</div>

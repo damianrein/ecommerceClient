@@ -2,5 +2,6 @@ export interface Product{
     id:Number,
     nombre:String,
     description:String,
-    precio:Number
+    precio:Number,
+    url:string
 }
