@@ -9,7 +9,10 @@ import { SearchResultComponent } from './components/search-result/search-result.
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
-import { DetailComponent } from './pages/detail/detail/detail.component';
+import { DetailComponent } from './pages/detail/detail.component';
+import { CardComponent } from './components/card/card.component';
+import { CardContainerComponent } from './components/card-container/card-container.component';
+import { ReviewsComponent } from './components/reviews/reviews.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { DetailComponent } from './pages/detail/detail/detail.component';
     LoginComponent,
     RegisterComponent,
     PageNotFoundComponent,
-    DetailComponent
+    DetailComponent,
+    CardComponent,
+    CardContainerComponent,
+    ReviewsComponent
   ],
   imports: [
     BrowserModule,
