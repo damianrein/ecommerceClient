@@ -1,0 +1,70 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 45vh; /* establece la altura del contenedor */
+  }
+  
+  .product-container{
+    border-radius: 2em;
+    background-color: gainsboro;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .h3{
+    text-align: center;
+  }
+  
+  .div-img{
+  }
+  
+  .img{
+    height: 41vh;
+    width: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 2em;
+  }
+  
+  .aside-container{
+    border-radius: 2em;
+    background-color:  gainsboro;
+    width: 49%;
+    height: 100%; /* establece la altura del aside-container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    overflow-y: auto;
+  }
+  .div-agregar button{
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #007fff;
+    border-radius: 1em;
+    border-color: #007fff;
+  }
+  .div-comprar button{
+    color: #ffffff;
+    background-color: #007fff;
+    border-radius: 1em;
+    border-color: #007fff;
+  }
+  .div-h4, .div-description, .div-precio, .div-comprar, .div-agregar {
+    text-align: center;
+  }

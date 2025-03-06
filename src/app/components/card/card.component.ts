@@ -8,7 +8,9 @@ import { Product } from 'src/app/models/product';
 })
 export class CardComponent implements OnInit {
 
-  @Input() @Output() product?: Product;
+  @Input() product?: Product;
+
+  @Output() producto?: Product = this.product;
   
   constructor() { }
 

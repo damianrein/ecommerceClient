@@ -4,9 +4,12 @@ import { HomeComponent } from './pages/home/home.component';
 import { RegisterComponent } from './components/register/register.component';
 import { LoginComponent } from './components/login/login.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { DetailComponent } from './pages/detail/detail.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
+  {path:'product/:id', component:DetailComponent},
+  {path:'product', component:DetailComponent},
   {path:'register',component:RegisterComponent},
   {path:'login',component:LoginComponent},
   {path:'page-not-found',component:PageNotFoundComponent},
